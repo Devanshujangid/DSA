@@ -48,10 +48,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/Devanshujangid/DSA/tree/master/0050-powx-n) |
+| [0509-fibonacci-number](https://github.com/Devanshujangid/DSA/tree/master/0509-fibonacci-number) |
 ## Recursion
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/Devanshujangid/DSA/tree/master/0050-powx-n) |
+| [0509-fibonacci-number](https://github.com/Devanshujangid/DSA/tree/master/0509-fibonacci-number) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -66,4 +68,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0008-string-to-integer-atoi](https://github.com/Devanshujangid/DSA/tree/master/0008-string-to-integer-atoi) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0509-fibonacci-number](https://github.com/Devanshujangid/DSA/tree/master/0509-fibonacci-number) |
+## Memoization
+|  |
+| ------- |
+| [0509-fibonacci-number](https://github.com/Devanshujangid/DSA/tree/master/0509-fibonacci-number) |
 <!---LeetCode Topics End-->
