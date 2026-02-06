@@ -5,7 +5,7 @@ public:
         // base case
         if ( y==0 ) return 1;
         long long temp = pow(x,y/2);
-        long long result = (temp * temp) % MOD;
+        long long result = (temp*temp) % MOD;
         // even
         if ( y%2==0 ) return result;
         else return (result*x)%MOD;
