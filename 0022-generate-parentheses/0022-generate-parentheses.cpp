@@ -9,8 +9,8 @@ public:
     }
 
     void solve(string& curr , int n ){
-        if ( curr.length() == 2*n ){
-            // means now you have made string and nnow you have to store it in result but check it first
+        if ( curr.length() == 2*n ){  // base case where string formation stops 
+            // means now you have made string and now you have to store it in result but check it first
             if (isValid(curr)){
                 result.push_back(curr);
             }
