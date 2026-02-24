@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0039-combination-sum](https://github.com/Devanshujangid/DSA/tree/master/0039-combination-sum) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Devanshujangid/DSA/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 ## String
 |  |
@@ -84,4 +85,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Devanshujangid/DSA/tree/master/0022-generate-parentheses) |
+| [0039-combination-sum](https://github.com/Devanshujangid/DSA/tree/master/0039-combination-sum) |
 <!---LeetCode Topics End-->
