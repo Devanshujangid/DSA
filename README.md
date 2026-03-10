@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Devanshujangid/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0039-combination-sum](https://github.com/Devanshujangid/DSA/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Devanshujangid/DSA/tree/master/0040-combination-sum-ii) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Devanshujangid/DSA/tree/master/1752-check-if-array-is-sorted-and-rotated) |
@@ -106,4 +107,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Devanshujangid/DSA/tree/master/1838-frequency-of-the-most-frequent-element) |
+## Two Pointers
+|  |
+| ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Devanshujangid/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 <!---LeetCode Topics End-->
