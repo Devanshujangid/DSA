@@ -6,7 +6,7 @@ public:
         // j-> this wil search for unique element and give it to 'i'
         
         // initially No. of unique elements=0
-        int k=1;
+        //int k=1;
         int i=0;
         for ( int j=1 ; j<nums.size() ; j++ ){
            // if ( nums[i]==nums[j] ){
@@ -15,12 +15,12 @@ public:
             //}
             if ( nums[i] != nums[j] ){
                 // unique element is their!
-                k++;
+                //k++;
                 // i will make place for it
                 i=i+1;
                 nums[i]=nums[j];
             }
         }
-        return k;
+        return i+1;
     }
 };
