@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/Devanshujangid/DSA/tree/master/0050-powx-n) |
+| [0189-rotate-array](https://github.com/Devanshujangid/DSA/tree/master/0189-rotate-array) |
 | [0509-fibonacci-number](https://github.com/Devanshujangid/DSA/tree/master/0509-fibonacci-number) |
 | [1922-count-good-numbers](https://github.com/Devanshujangid/DSA/tree/master/1922-count-good-numbers) |
 ## Recursion
@@ -69,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Devanshujangid/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0039-combination-sum](https://github.com/Devanshujangid/DSA/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Devanshujangid/DSA/tree/master/0040-combination-sum-ii) |
+| [0189-rotate-array](https://github.com/Devanshujangid/DSA/tree/master/0189-rotate-array) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Devanshujangid/DSA/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Devanshujangid/DSA/tree/master/1838-frequency-of-the-most-frequent-element) |
 ## String
@@ -111,4 +113,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Devanshujangid/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0189-rotate-array](https://github.com/Devanshujangid/DSA/tree/master/0189-rotate-array) |
 <!---LeetCode Topics End-->
