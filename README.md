@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Devanshujangid/DSA/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Devanshujangid/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/Devanshujangid/DSA/tree/master/0031-next-permutation) |
 | [0039-combination-sum](https://github.com/Devanshujangid/DSA/tree/master/0039-combination-sum) |
@@ -130,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Devanshujangid/DSA/tree/master/0001-two-sum) |
 | [0169-majority-element](https://github.com/Devanshujangid/DSA/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/Devanshujangid/DSA/tree/master/0229-majority-element-ii) |
 | [0349-intersection-of-two-arrays](https://github.com/Devanshujangid/DSA/tree/master/0349-intersection-of-two-arrays) |
