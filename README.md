@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/Devanshujangid/DSA/tree/master/0040-combination-sum-ii) |
 | [0169-majority-element](https://github.com/Devanshujangid/DSA/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Devanshujangid/DSA/tree/master/0189-rotate-array) |
+| [0217-contains-duplicate](https://github.com/Devanshujangid/DSA/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/Devanshujangid/DSA/tree/master/0229-majority-element-ii) |
 | [0283-move-zeroes](https://github.com/Devanshujangid/DSA/tree/master/0283-move-zeroes) |
 | [0349-intersection-of-two-arrays](https://github.com/Devanshujangid/DSA/tree/master/0349-intersection-of-two-arrays) |
@@ -113,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Devanshujangid/DSA/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/Devanshujangid/DSA/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/Devanshujangid/DSA/tree/master/0229-majority-element-ii) |
 | [0349-intersection-of-two-arrays](https://github.com/Devanshujangid/DSA/tree/master/0349-intersection-of-two-arrays) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Devanshujangid/DSA/tree/master/1838-frequency-of-the-most-frequent-element) |
@@ -133,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Devanshujangid/DSA/tree/master/0001-two-sum) |
 | [0169-majority-element](https://github.com/Devanshujangid/DSA/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/Devanshujangid/DSA/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/Devanshujangid/DSA/tree/master/0229-majority-element-ii) |
 | [0349-intersection-of-two-arrays](https://github.com/Devanshujangid/DSA/tree/master/0349-intersection-of-two-arrays) |
 ## Divide and Conquer
