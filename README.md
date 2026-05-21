@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/Devanshujangid/DSA/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/Devanshujangid/DSA/tree/master/0229-majority-element-ii) |
 | [0283-move-zeroes](https://github.com/Devanshujangid/DSA/tree/master/0283-move-zeroes) |
+| [0347-top-k-frequent-elements](https://github.com/Devanshujangid/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/Devanshujangid/DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0485-max-consecutive-ones](https://github.com/Devanshujangid/DSA/tree/master/0485-max-consecutive-ones) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Devanshujangid/DSA/tree/master/1752-check-if-array-is-sorted-and-rotated) |
@@ -116,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Devanshujangid/DSA/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Devanshujangid/DSA/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/Devanshujangid/DSA/tree/master/0229-majority-element-ii) |
+| [0347-top-k-frequent-elements](https://github.com/Devanshujangid/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/Devanshujangid/DSA/tree/master/0349-intersection-of-two-arrays) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Devanshujangid/DSA/tree/master/1838-frequency-of-the-most-frequent-element) |
 ## Prefix Sum
@@ -137,14 +139,29 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Devanshujangid/DSA/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Devanshujangid/DSA/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/Devanshujangid/DSA/tree/master/0229-majority-element-ii) |
+| [0347-top-k-frequent-elements](https://github.com/Devanshujangid/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/Devanshujangid/DSA/tree/master/0349-intersection-of-two-arrays) |
 ## Divide and Conquer
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Devanshujangid/DSA/tree/master/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/Devanshujangid/DSA/tree/master/0347-top-k-frequent-elements) |
 ## Counting
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Devanshujangid/DSA/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/Devanshujangid/DSA/tree/master/0229-majority-element-ii) |
+| [0347-top-k-frequent-elements](https://github.com/Devanshujangid/DSA/tree/master/0347-top-k-frequent-elements) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/Devanshujangid/DSA/tree/master/0347-top-k-frequent-elements) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/Devanshujangid/DSA/tree/master/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/Devanshujangid/DSA/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
