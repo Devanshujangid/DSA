@@ -22,7 +22,7 @@ public:
             if ( supporters==0 ){
                 // then change the candidate
                 candidate = nums[i];
-                supporters++;
+                supporters=1;
             }
         }
         return candidate;
