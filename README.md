@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/Devanshujangid/DSA/tree/master/0031-next-permutation) |
 | [0039-combination-sum](https://github.com/Devanshujangid/DSA/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Devanshujangid/DSA/tree/master/0040-combination-sum-ii) |
+| [0073-set-matrix-zeroes](https://github.com/Devanshujangid/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Devanshujangid/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/Devanshujangid/DSA/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/Devanshujangid/DSA/tree/master/0169-majority-element) |
@@ -143,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Devanshujangid/DSA/tree/master/0001-two-sum) |
+| [0073-set-matrix-zeroes](https://github.com/Devanshujangid/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0169-majority-element](https://github.com/Devanshujangid/DSA/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Devanshujangid/DSA/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/Devanshujangid/DSA/tree/master/0229-majority-element-ii) |
@@ -179,4 +181,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Devanshujangid/DSA/tree/master/0169-majority-element) |
+## Matrix
+|  |
+| ------- |
+| [0073-set-matrix-zeroes](https://github.com/Devanshujangid/DSA/tree/master/0073-set-matrix-zeroes) |
 <!---LeetCode Topics End-->
