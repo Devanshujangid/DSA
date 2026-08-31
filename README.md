@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/Devanshujangid/DSA/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Devanshujangid/DSA/tree/master/0040-combination-sum-ii) |
 | [0073-set-matrix-zeroes](https://github.com/Devanshujangid/DSA/tree/master/0073-set-matrix-zeroes) |
+| [0118-pascals-triangle](https://github.com/Devanshujangid/DSA/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Devanshujangid/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/Devanshujangid/DSA/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/Devanshujangid/DSA/tree/master/0169-majority-element) |
@@ -98,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Devanshujangid/DSA/tree/master/0022-generate-parentheses) |
+| [0118-pascals-triangle](https://github.com/Devanshujangid/DSA/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Devanshujangid/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0509-fibonacci-number](https://github.com/Devanshujangid/DSA/tree/master/0509-fibonacci-number) |
 ## Memoization
