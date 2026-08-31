@@ -12,7 +12,8 @@ public:
             // so declare an array that will store the elements of every row
             // initialize it with 1 so we will override it later
             //vector<int>EveryRow(i+1,1); -> this will store in result
-            result[i] = vector<int>(i+1,1);
+            vector<int>temp(i+1,1);
+            result[i]=temp;
 
             // now fill every row
             for ( int j=1 ; j<i ; j++ ){
