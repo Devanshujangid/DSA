@@ -1,32 +1,41 @@
 class Solution {
 public:
     void nextPermutation(vector<int>& nums) {
-        int n=nums.size();
-        // find the index from where the next greater permuted number will form 
-        int idx=-1;
-        for ( int i=n-2 ; i>=0  ; i-- ){   // ->O(n)
-            if ( nums[i]<nums[i+1] ){
-                idx=i;
-                break;
+        // step 1: find the pivot where order breaks
+        int n = nums.size();
+
+        int pivot;
+        int pivot_idx=-1;
+        // use pointer -> traverse back 
+        for ( int i=n-1 ; i>=1 ; i-- ){
+            if ( nums[i-1]<nums[i] ){
+                 pivot = nums[i-1];
+                 pivot_idx=i-1;
+                 break;
             }
         }
-        if ( idx==-1 ) {
-            reverse(nums.begin(),nums.end()); // edge case
+
+        // no pivot
+        if ( pivot_idx==-1 ){
+            // simply reverse 
+            reverse(nums.begin(), nums.end());
             return;
         }
 
-        // find somone greater than that idx element but the smallest one 
-        // start loop from last and swap
-        for ( int i=n-1 ; i>idx ; i-- ){ // O(n)
-            if ( nums[i]>nums[idx] ){
-                swap(nums[i],nums[idx]);
-                break;
+        // traverse from pivot_idx+1 to n-1 and find the no exactly just greater than pivot
+        int min_no_gt_tn_pivot = INT_MAX;
+        int min_no_gt_tn_pivot_idx=-1;
+       // int min_no_just_greater_tn_pivot;
+        for ( int k=pivot_idx+1 ; k<n ; k++ ){
+            if ( nums[k]>pivot && nums[k]<=min_no_gt_tn_pivot ){
+                min_no_gt_tn_pivot = nums[k];
+                min_no_gt_tn_pivot_idx = k;
             }
         }
 
-        // now arrange the reamining elements it they are large make them small
-        // just reverse the remaining part of array->as this will make as small as possible
-        reverse(nums.begin()+idx+1 , nums.end() ); // ->>O(n)
-        // final t.c->O(n) and S.C->O(1)
+        // so swap 
+        swap(nums[min_no_gt_tn_pivot_idx],nums[pivot_idx]);
+        // now reverse from pivot+1 to n-1
+        reverse(nums.begin()+pivot_idx+1, nums.end());
     }
 };
