@@ -1,43 +1,49 @@
 class Solution {
 public:
     vector<int> majorityElement(vector<int>& nums) {
-        int count1 = 0, count2 = 0;
-        int ele1 = 0, ele2 = 1; // initialize differently
         int n = nums.size();
+        // brute force 
+        vector<int>result;
 
-        // Step 1: Find candidates
-        for (int num : nums) {
-            if (num == ele1) {
-                count1++;
-            }
-            else if (num == ele2) {
-                count2++;
-            }
-            else if (count1 == 0) {
-                ele1 = num;
-                count1 = 1;
-            }
-            else if (count2 == 0) {
-                ele2 = num;
-                count2 = 1;
-            }
-            else {
-                count1--;
-                count2--;
-            }
+        
+    //     for ( int i=0 ; i<n ; i++ ){
+    //         int count=0;
+    //         // for picking element 
+    //         for ( int j=0 ; j<n ; j++ ){
+    //             // for counting occureences if element repeats
+    //             if ( nums[j] == nums[i] ) {
+    //                 count++;
+    //                 if ( count>n/3 && find(result.begin(),result.end(),nums[i]) == result.end() ) {
+    //                     result.push_back(nums[i]);
+    //                 }
+    //             }
+    //         }
+    //     }
+    // return result;
+
+
+        // Hashmap approach
+    unordered_map<int,int>mpp;
+    // key = element of array & value = frequency of element 
+
+    // traversing the array
+    for ( int i=0 ; i<n ; i++ ){
+        if ( !mpp.contains(nums[i]) ){
+            mpp[nums[i]]=1;
+        } else {
+            mpp[nums[i]]++;
         }
+    }
 
-        // Step 2: Verify
-        count1 = 0, count2 = 0;
-        for (int num : nums) {
-            if (num == ele1) count1++;
-            else if (num == ele2) count2++;
+    // traverse in map
+    for ( auto it = mpp.begin(); it != mpp.end(); it++ ){
+        if ( it->second > n/3 ) {
+            result.push_back(it->first);
         }
+    }
 
-        vector<int> res;
-        if (count1 > n / 3) res.push_back(ele1);
-        if (count2 > n / 3) res.push_back(ele2);
+    return result;
 
-        return res;
+
     }
 };
