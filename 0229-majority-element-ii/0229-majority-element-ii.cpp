@@ -23,27 +23,41 @@ public:
 
 
         // Hashmap approach
+    // unordered_map<int,int>mpp;
+    // // key = element of array & value = frequency of element 
+
+    // // traversing the array
+    // for ( int i=0 ; i<n ; i++ ){
+    //     if ( !mpp.contains(nums[i]) ){
+    //         mpp[nums[i]]=1;
+    //     } else {
+    //         mpp[nums[i]]++;
+    //     }
+    // }
+
+    // // traverse in map
+    // for ( auto it = mpp.begin(); it != mpp.end(); it++ ){
+    //     if ( it->second > n/3 ) {
+    //         result.push_back(it->first);
+    //     }
+    // }
+
+    // return result;
+
+
+// better hashmap approach:
     unordered_map<int,int>mpp;
-    // key = element of array & value = frequency of element 
-
-    // traversing the array
+    // traverse the array
     for ( int i=0 ; i<n ; i++ ){
-        if ( !mpp.contains(nums[i]) ){
-            mpp[nums[i]]=1;
-        } else {
+        // if ( !mpp.contains(nums[i]) ){
+        //     mpp[nums[i]] = 1;
+        // } 
+        
             mpp[nums[i]]++;
-        }
+         if( mpp[nums[i]] == (n/3)+1 ) {
+            result.push_back(nums[i]);
+        } 
     }
-
-    // traverse in map
-    for ( auto it = mpp.begin(); it != mpp.end(); it++ ){
-        if ( it->second > n/3 ) {
-            result.push_back(it->first);
-        }
-    }
-
-    return result;
-
-
+      return result;
     }
 };
