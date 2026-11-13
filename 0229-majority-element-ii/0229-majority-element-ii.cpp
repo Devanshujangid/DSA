@@ -46,18 +46,56 @@ public:
 
 
 // better hashmap approach:
-    unordered_map<int,int>mpp;
-    // traverse the array
-    for ( int i=0 ; i<n ; i++ ){
-        // if ( !mpp.contains(nums[i]) ){
-        //     mpp[nums[i]] = 1;
-        // } 
+    // unordered_map<int,int>mpp;
+    // // traverse the array
+    // for ( int i=0 ; i<n ; i++ ){
+    //     // if ( !mpp.contains(nums[i]) ){
+    //     //     mpp[nums[i]] = 1;
+    //     // } 
         
-            mpp[nums[i]]++;
-         if( mpp[nums[i]] == (n/3)+1 ) {
-            result.push_back(nums[i]);
-        } 
-    }
-      return result;
+    //         mpp[nums[i]]++;
+    //      if( mpp[nums[i]] == (n/3)+1 ) {
+    //         result.push_back(nums[i]);
+    //     } 
+    // }
+    //   return result;
+
+      int count_1=0; 
+      int count_2=0;
+      int maj_1=-1;
+      int maj_2=-1;
+      
+      for ( int i=0 ; i<n ; i++ ){
+        if ( count_1==0 && nums[i] != maj_2 ){
+            count_1++;
+            maj_1=nums[i];
+        }
+        else if ( count_2==0 && nums[i] != maj_1 ){
+            count_2++;
+            maj_2=nums[i];
+        }
+        else if ( maj_1 == nums[i] ) count_1++;
+        else if ( maj_2 == nums[i] ) count_2++;
+        else {
+            count_1--;
+            count_2--;
+        }
+      }
+      
+      count_1=0;
+      count_2=0;
+      for ( int i=0 ; i<n ; i++ ){
+        if ( maj_1 == nums[i]) count_1++;
+        else if ( nums[i]==maj_2) count_2++;
+      }
+
+      if ( count_1 > n/3 ){
+        result.push_back(maj_1);
+      }
+
+      if ( count_2 > n/3 ){
+        result.push_back(maj_2);
+      }
+    return result;
     }
 };
